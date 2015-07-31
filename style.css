@@ -1,0 +1,53 @@
+/*
+ _______     _     _________  _______     _____   ___    _________  
+|_   __ \   / \   |  _   _  ||_   __ \   |_   _|.'   `. |  _   _  | 
+  | |__) | / _ \  |_/ | | \_|  | |__) |    | | /  .-.  \|_/ | | \_| 
+  |  ___/ / ___ \     | |      |  __ /     | | | |   | |    | |     
+ _| |_  _/ /   \ \_  _| |_    _| |  \ \_  _| |_\  `-'  /   _| |_    
+|_____||____| |____||_____|  |____| |___||_____|`.___.'   |_____| 
+CSS
+*/
+
+body {
+	background-color: #f9f9f9
+}
+
+.container {
+	margin: 4% 24% 0px 24%;	
+	font-family: helvetica;
+	color: #222
+}
+
+
+h3 {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.center {
+	margin-top: 72px;
+	text-align: center;
+}
+
+#clock {
+	font-size: 32px;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 4% 6% 0px 6%;
+  }
+
+  h3 {
+  	font-size: 24px;
+  }
+
+  #clock {
+  	font-size: 24px;
+  }
+}

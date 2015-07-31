@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pardon Snowden</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Days left to pardon Snowden">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">	
+		<style type="text/css"></style>
+	</head>
+
+	<body>
+		<div class="container">
+			<h3>President Obama,<h3> 
+			<h3>You have
+			<span id="clock"></span>
+			to pardon Edward Snowden. He gave us the transparency that you promised.</h3>
+			<h3>Sincerely,<br>The American People</h3>
+			<h4 class="center"><a href="https://petitions.whitehouse.gov/petition/pardon-edward-snowden">Sign the petition</a></h4>
+		</div>
+	</body>
+
+	<!--JAVASCRIPT-->
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="jquery.countdown.min.js"></script>
+	<script type="text/javascript">
+		$('#clock').countdown('2017/01/20', function(event) {
+  		$(this).html(event.strftime('%D days, %H hours, %M minutes, and %S seconds'));
+ 		});
+
+	</script>	
+</html>
